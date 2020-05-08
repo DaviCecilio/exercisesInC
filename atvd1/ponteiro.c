@@ -6,7 +6,7 @@ main(){
     float *pPeso = &peso;
 
     int idade[3] = {10,20,30};
-    int *pIdade = idade;
+    int *pIdade = &idade[0];
 
     printf("\n Endereco da variavel peso: %x",&peso);
     printf("\n Conteudo da variavel peso: %f",peso);
