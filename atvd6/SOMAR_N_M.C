@@ -11,7 +11,7 @@ int Sum(int value){
     }
 }
 
-double fat(int n)
+double fat(double n)
 {
   double vfat;
   if ( n <= 1 )
